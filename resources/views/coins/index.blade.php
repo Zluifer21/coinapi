@@ -1,4 +1,4 @@
 @extends('layaout.app')
     @section('content')
-        <example-component></example-component>
+        <coin-component></coin-component>
     @endsection

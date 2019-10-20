@@ -20,6 +20,8 @@ window.Vue = require('vue');
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
 Vue.component('coin-component', require('./components/coins/CoinComponent.vue').default);
+Vue.component('spinner-component', require('./components/spinner/SpinnerComponent').default);
+Vue.component('show-component', require('./components/show/ShowComponent').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

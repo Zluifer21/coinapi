@@ -17,6 +17,6 @@ class CoinAPIController extends Controller
 
     public function index()
     {
-         return $this->coins->getassets(5);
+         return $this->coins->getassets(4);
     }
 }

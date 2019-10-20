@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { environment } from "./API";
+
 const api = environment.APIEndpoint;
 export class Coinservice {
 
@@ -8,11 +9,6 @@ export class Coinservice {
 
     getCoins() {
 
-        return axios.get(`${api}/coins`).
-                    then(response => {
-                            response
-        }).catch(e => {
-            console.log(e);
-        });
+        return axios.get(`${api}/coins`).then(response => response);
     }
 }

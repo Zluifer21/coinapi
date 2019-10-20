@@ -16,6 +16,7 @@ use Illuminate\Http\Request;
 
 Route::group(['middleware' => 'cors'], function () {
 
+
     Route::get('/coins','CoinAPIController@index');
 
 });

@@ -19,6 +19,9 @@ window.Vue = require('vue');
 // const files = require.context('./', true, /\.vue$/i);
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
+/**
+ * register Vue components
+ */
 Vue.component('coin-component', require('./components/coins/CoinComponent.vue').default);
 Vue.component('spinner-component', require('./components/spinner/SpinnerComponent').default);
 Vue.component('show-component', require('./components/show/ShowComponent').default);

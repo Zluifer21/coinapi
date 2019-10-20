@@ -11,4 +11,8 @@
 |
 */
 
+
+/**
+ *call the index method of the CoinController
+ */
 Route::get('/','CoinController@index');

@@ -13,7 +13,6 @@ export default {
     },
 
     methods:{
-
         getCoins(){
             coinservice.getCoins().then((data) => {
                 this.coins = data.data;
